@@ -1,7 +1,42 @@
 
 
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f5f6;
+    margin:0 20px 0 20px;
+    
+}
+main{
+    background: white; 
+}
+
 .top-navbar{
 background-color: red;
-color: white;
-font-size: 15px;
+height: 95px;
+margin: 0 auto;
+width: 100%;
+}
+
+
+
+.climate{
+    width: 28px; 
+   
+}
+
+.logo {
+    font-family: 'Podkova', serif;
+    font-size: 90px;
+}
+
+.login-subs{
+    font-size: 17px;
+    padding-top: 50px;
+}
+
+.subscribe-btn{
+    background: #ffe400;
+    height: 25px;
+    padding: 2px 0 3px 0;
+    margin: 4px 14px 14px 10px;
 }
