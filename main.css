@@ -11,7 +11,7 @@ main{
 }
 
 .top-navbar{
-background-color: red;
+background-color: #f72210;
 height: 95px;
 margin: 0 auto;
 width: 100%;
@@ -42,10 +42,81 @@ width: 100%;
 }
 
 .white-navbar{
-    border-right:2px solid #d9d9d9;
+    clear: both;
+    border-bottom:2px solid #f4f5f6;
+    font-size: 17px;
+    margin: 0 auto;
+    justify-content: left;
+
+}
+.white-navbar a:hover{
+    color: #f72210;
+  
+}
+  
+.position{
+    width:100%;
+  height: 15px;
+  background-color: white;
+  margin-top:0  auto;
+
+}
+.corner{
+    position: absolute;
+    top: 95px;
+    right: 20px;
+    width: 80px;
+    height: 15px;
+    border-left: 14px solid white;
+    border-top: 15px solid #f72210;
+  }
+    
+
+.fa-search {
+    font-size: 20px;
+
 }
 
-.border{ 
-    margin-left:5px;
+.st-row-imgs{
+    width: 300px;
+    margin-top: 15px;
+}
+.st-row-text{
+    font-size: 21px;
 
+}
+.st-row-text2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mid-row-imgs{
+    width: 400px ;
+    margin-top: 10px;
+}
+.group-imgs{
+    width: 140px;
+    margin-top: 10px;
+}
+.group-text {
+    font-size:16px ;
+
+}
+
+.group-imgs-text{
+
+}
+.more-stories-text1{
+    font-size: 16px;
+}
+.more-stories-text2{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.circle-imgs{
+    width: 60px;
+}
+
+.circle-imgs-text{
+    font-size: 15px;
 }
