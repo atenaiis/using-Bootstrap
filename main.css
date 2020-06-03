@@ -1,13 +1,20 @@
 
+html,body {
+    height: 100%; margin: 0px; padding: 0px;
+}
 
-body{
+    body{
     font-family: 'Roboto', sans-serif;
     background-color: #f4f5f6;
     margin:0 20px 0 20px;
+  
     
 }
 main{
     background: white; 
+    width: 100%;
+    margin: 0 auto;
+    
 }
 
 .top-navbar{
@@ -89,13 +96,8 @@ width: 100%;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.mid-row-imgs{
-    width: 400px ;
-    margin-top: 10px;
-}
-.group-imgs{
-    width: 140px;
-    margin-top: 10px;
+
+
 }
 .group-text {
     font-size:16px ;
