@@ -121,3 +121,13 @@ width: 100%;
 .circle-imgs-text{
     font-size: 15px;
 }
+
+.bottm-subs-butn,
+.newsletter-button{
+    
+    background-color:#f72210 ;
+}
+.newsletter-txt{
+    float: right;
+    width: fit-content;
+}
