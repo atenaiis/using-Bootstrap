@@ -131,3 +131,18 @@ width: 100%;
     float: right;
     width: fit-content;
 }
+.footer-icons{
+    color: grey;
+    width: 30px ;
+    font-size: 23px;
+}
+.footer-icons:hover{
+    color: lightskyblue;
+}
+.page-footer-bott{
+    color:gray;
+    
+}
+.page-footer-bott:hover{
+    color:#333;
+}
