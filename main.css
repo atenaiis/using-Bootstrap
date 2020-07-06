@@ -146,3 +146,10 @@ width: 100%;
 .page-footer-bott:hover{
     color:#333;
 }
+
+.custom-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 1rem;
+    align-self: flex-end;
+    }
