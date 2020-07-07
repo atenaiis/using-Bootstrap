@@ -1,6 +1,9 @@
 
-html,body {
+html {
     height: 100%; margin: 0px; padding: 0px;
+}
+*{
+    box-sizing: border-box;
 }
 
     body{
@@ -152,4 +155,17 @@ width: 100%;
     position: sticky;
     bottom: 1rem;
     align-self: flex-end;
+    }
+
+    @media screen and (min-width: 768px) {
+        .sm-topstory{
+            display: none;
+        }
+    }
+
+
+    @media screen and (max-width: 576px) {
+        .the-debate-sm{
+            display: none;
+        }
     }
