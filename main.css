@@ -53,7 +53,7 @@ width: 100%;
     justify-content: left;
 
 }
-.white-navbar a:hover{
+.nav-item:hover {
     color: #f72210;
   
 }
@@ -201,16 +201,19 @@ width: 100%;
         }
        
         .sm-topstory-img {
-    width: 350px;
+    width: 400px;
 }
+
    .st-row-text2,
    .debate-sm{
        width: 400px;
    }
 
-   .sm-topstory-img1{
-       max-width: 350px;
+   .sm-topstory-img1,
+   .sm-topstory-img2 {
+       width: 400px;
    }
+
    .st-row-text2-sm{
        width: 150px;
    }
