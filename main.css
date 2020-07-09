@@ -43,6 +43,11 @@ width: 100%;
    
 }
 
+.fa-angle-right{
+    padding: 2px;
+    font-size: 20px;
+}
+
 .logo {
     font-family: 'Podkova', serif;
     font-size: 90px;
@@ -56,8 +61,11 @@ width: 100%;
 .subscribe-btn{
     background: #ffe400;
     height: 25px;
+    width: 120px;
     padding: 2px 0 3px 0;
     margin: 4px 14px 14px 10px;
+    border-radius: 25px;
+    border: none;
 }
 
 .white-navbar{
@@ -226,7 +234,8 @@ width: 100%;
             bottom: 1rem;
             align-self: flex-end;
             }
-           
+          
+  
     }
 
 
@@ -254,17 +263,37 @@ width: 100%;
        width: 150px;
    }
 
-  .top-navbar{
-      height: 45px;
-      width: 100%;
-  }
+   .top-navbar{
+    height: 45px;
+    width: 100%;
+}
 
-   .logo{
-       font-size: 30px;
-   }
+ .logo{
+     font-size: 30px;
+ }
 
-   .fas-user{
-       display: inline-block;
-       float: left;
-   }
+ .fa-user
+{
+ color: #fdc7c3;
+   margin-bottom: 30px;
+ }
+
+ .fa-bars {
+  color: #fdc7c3;
+  font-size: 18px;
+ }
+
+ .subscribe-btn
+  {
+     margin-bottom: 40px;
+ }
+ .subscribe-btn{
+     font-size: 12px;
+     width: 100px;
+     padding: 3px;
+ }
+ 
+ .fa-angle-right{
+     font-size: 12px;
+ }
     }
