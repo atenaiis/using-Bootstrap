@@ -1,5 +1,20 @@
-
-    body{
+* {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    margin: 0 auto;
+  }
+  
+  html {
+    width: 100%;
+    margin: 0 auto;
+  }
+   
+   
+   body{
     font-family: 'Roboto', sans-serif;
     background-color: #f4f5f6;
     margin:0 20px 0 20px;
@@ -196,7 +211,25 @@ width: 100%;
         .debate-w{
             width: 100%;
         }
+        .st-row-imgs-md{
+            margin-left: 200px; 
+           }
+        
+.st-row-imgslg{
+    width: 300px;
+}
+
+.debate-sect{
+    width: 310px;
+}
+           .debate-imgmd,
+           .debate-tx {
+             width: 125px;
+             margin:0;
+             padding: 0;
+           }
     }
+
 
 
     @media screen and (max-width: 576px) {
