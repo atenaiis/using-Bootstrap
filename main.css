@@ -193,6 +193,13 @@ a:hover {
   color: #333;
 }
 
+.middle-txt{
+    width: 250px;
+    font-size: 20px;
+
+}
+
+
 @media screen and (max-width: 600px) {
   .the-debate-sm {
     display: none;
@@ -247,6 +254,7 @@ a:hover {
   .fa-angle-right {
     font-size: 12px;
   }
+  
 }
 @media screen and (min-width: 768px) {
   .sm-topstory {
@@ -288,4 +296,16 @@ a:hover {
     color: #fdc7c3;
     padding-top: 35px;
   }
+  .custom-sticky2 {
+   
+  }
+}
+
+@media screen and (min-width: 1064px) {
+    .custom-sticky2 {
+        position: -webkit-sticky;
+        position: sticky;
+        bottom: 1rem;
+        align-self: flex-end;
+      }
 }
