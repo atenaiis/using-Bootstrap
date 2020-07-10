@@ -192,11 +192,22 @@ a:hover {
 .page-footer-bott:hover {
   color: #333;
 }
+.middle-imgs{
+margin: 5px;
 
+}
+.middle-tittle{
+    font-size: 20px;
+  
+}
 .middle-txt{
     width: 250px;
     font-size: 20px;
-
+    margin: 0;
+    justify-content: center;
+}
+.middle-stn-1>figure {
+   margin-top: 0;
 }
 
 
