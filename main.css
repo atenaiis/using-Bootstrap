@@ -217,6 +217,13 @@ cursor: pointer;
    margin-top: 0;
 }
 
+.us-section-tittle {
+ width: 100%;
+}
+
+
+
+
 
 @media screen and (max-width: 600px) {
   .the-debate-sm {
@@ -272,9 +279,53 @@ cursor: pointer;
   .fa-angle-right {
     font-size: 12px;
   }
+.us-section3{
+  display: none;
+}
+  .us-section-bigimg,
+   {
+  width: 380px;
+  }
+  .us-section-bigtxt {
+    font-size: 18px;
+    width: 380px;
+    
+  } 
+  .us{
+    color: transparent;
+  }
+  .aside-pictures{
+    width: 380px;
 
+ text-align: left;
+   
+  }
 
+  .all-access {
+    font-size: 15px;
+    text-align: center;
   
+  }
+.newsletter-us-ttl{
+border: none;
+  padding: 0;
+  margin: 0;
+}
+.us-sm-version{
+ align-content: center;
+}
+.newsletter-us-text2{
+  position: absolute;
+ bottom: 0px;
+ width: 300px;
+ text-align: center;
+}
+
+.us-case{
+  width: 350px;
+  height: 450px;
+ 
+}
 }
 @media screen and (min-width: 768px) {
   .sm-topstory {
@@ -341,6 +392,25 @@ cursor: pointer;
   width: 100px;
   height: 100px;
 }
+
+.us-section-bigimg  {
+  width: 100%;
+  }
+
+  .all-access{
+    font-size: 20px;
+  }
+
+  .all-access2{
+    font-size: 15px;
+  }
+  .newsletter-us-ttl {
+    height: 80px;
+    }
+    .newsletter-us-body {
+    
+      margin-top: 30px;
+    }
 }
 
 @media screen and (min-width: 1064px) {
