@@ -195,7 +195,6 @@ a:hover {
 .middle-imgs{
 margin: 9px;
 cursor: pointer;
-wi
 
 }
 .middle-tittle{
@@ -320,7 +319,7 @@ wi
   .custom-sticky2 {
    
   }
-/*
+
   .middle-stn-1,
   .middle-stn-2 {
     width: 95%;
@@ -334,8 +333,9 @@ wi
   .middle-txt{
     width: 180px;
     margin: 3px;
+    font-size: 15px;
     
-  */
+  
 }
  
 }
@@ -347,5 +347,13 @@ wi
         bottom: 1rem;
         align-self: flex-end;
       }
+      .middle-imgs-main,
+      .middle-txtmain,
+      .middle-imgs,
+      .middle-txt{
+        width: 280px;
+        margin: 3px;
+        font-size: 20px;
       
+    }
 }
