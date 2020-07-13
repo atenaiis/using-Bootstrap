@@ -195,6 +195,7 @@ a:hover {
 .middle-imgs{
 margin: 9px;
 cursor: pointer;
+wi
 
 }
 .middle-tittle{
@@ -272,6 +273,8 @@ cursor: pointer;
   .fa-angle-right {
     font-size: 12px;
   }
+
+
   
 }
 @media screen and (min-width: 768px) {
@@ -317,7 +320,23 @@ cursor: pointer;
   .custom-sticky2 {
    
   }
-
+/*
+  .middle-stn-1,
+  .middle-stn-2 {
+    width: 95%;
+    justify-content: center;
+    padding: 0;
+   
+  }
+  .middle-imgs-main,
+  .middle-txtmain,
+  .middle-imgs,
+  .middle-txt{
+    width: 180px;
+    margin: 3px;
+    
+  */
+}
  
 }
 
@@ -328,4 +347,5 @@ cursor: pointer;
         bottom: 1rem;
         align-self: flex-end;
       }
+      
 }
