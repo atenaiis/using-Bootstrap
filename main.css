@@ -296,24 +296,18 @@ cursor: pointer;
   }
   .aside-pictures{
     width: 380px;
-
  text-align: left;
    
   }
-
   .all-access {
     font-size: 15px;
     text-align: center;
   
   }
-.newsletter-us-ttl{
-border: none;
-  padding: 0;
-  margin: 0;
+.newsletter-sm-version{
+  width: 100%;
 }
-.us-sm-version{
- align-content: center;
-}
+
 .newsletter-us-text2{
   position: absolute;
  bottom: 0px;
@@ -322,9 +316,16 @@ border: none;
 }
 
 .us-case{
+
+padding: 0;
   width: 350px;
   height: 450px;
  
+}
+
+.newsletter-form{
+  width: 350px;
+  margin: 0;
 }
 }
 @media screen and (min-width: 768px) {
@@ -404,9 +405,7 @@ border: none;
   .all-access2{
     font-size: 15px;
   }
-  .newsletter-us-ttl {
-    height: 80px;
-    }
+  
     .newsletter-us-body {
     
       margin-top: 30px;
