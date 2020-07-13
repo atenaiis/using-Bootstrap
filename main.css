@@ -334,10 +334,13 @@ cursor: pointer;
     width: 180px;
     margin: 3px;
     font-size: 15px;
-    
   
 }
  
+.us-section-img{
+  width: 100px;
+  height: 100px;
+}
 }
 
 @media screen and (min-width: 1064px) {
