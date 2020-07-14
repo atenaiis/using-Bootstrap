@@ -7,6 +7,9 @@
 *::after {
   margin: 0 auto;
 }
+h3{
+  display: none;
+}
 
 html {
   width: 100%;
