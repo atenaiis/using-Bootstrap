@@ -7,7 +7,8 @@
 *::after {
   margin: 0 auto;
 }
-h3{
+
+h3 {
   display: none;
 }
 
@@ -15,9 +16,11 @@ html {
   width: 100%;
   margin: 0 auto;
 }
-.wrapp{
+
+.wrapp {
   overflow: hidden;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f4f5f6;
@@ -71,9 +74,20 @@ section {
   border-radius: 25px;
   border: none;
 }
-a:hover {
-    text-decoration-color: red;
+
+footer li,
+footer a {
+  padding-right: 3px;
+  padding-left: 3px;
+  color: #666;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+a:hover {
+  text-decoration-color: red;
+}
+
 .nav-item:hover {
   color: red;
 }
@@ -90,8 +104,8 @@ a:hover {
   width: 100%;
   height: 15px;
   background-color: white;
-  margin-top: 0 auto;
 }
+
 .corner {
   position: absolute;
   top: 95px;
@@ -105,6 +119,7 @@ a:hover {
 .fa-search {
   font-size: 20px;
 }
+
 .st-row-imgs {
   width: 350px;
 }
@@ -127,9 +142,11 @@ a:hover {
   bottom: 2px;
   align-self: flex-end;
 }
+
 .h5 {
   font-size: 15px;
 }
+
 .h6 {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
@@ -171,6 +188,7 @@ a:hover {
 .debate-tx {
   width: 150px;
 }
+
 .circle-imgs-text {
   font-size: 15px;
 }
@@ -179,68 +197,65 @@ a:hover {
 .newsletter-button {
   background-color: #f72210;
 }
+
 .newsletter-txt {
   float: right;
   width: fit-content;
 }
+
 .footer-icons {
   color: grey;
   width: 30px;
   font-size: 23px;
 }
+
 .footer-icons:hover {
   color: lightskyblue;
 }
+
 .page-footer-bott {
   color: gray;
   font-size: 13px;
 }
+
 .page-footer-bott:hover {
   color: #333;
 }
-.middle-imgs{
-margin: 9px;
-cursor: pointer;
 
+.middle-imgs {
+  margin: 9px;
+  cursor: pointer;
 }
-.middle-tittle{
-    font-size: 20px;
-  
+
+.middle-tittle {
+  font-size: 20px;
 }
-.middle-txtmain{
-    font-size: 20px;
-    margin: 15px;
-    padding-left: 5px;
+
+.middle-txtmain {
+  font-size: 20px;
+  margin: 15px;
+  padding-left: 5px;
 }
-.middle-txt{
-    width: 250px;
-    font-size: 20px;
-    margin: 15px;
-    padding-left: 5px;
-    justify-content: center;
+
+.middle-txt {
+  width: 250px;
+  font-size: 20px;
+  margin: 15px;
+  padding-left: 5px;
+  justify-content: center;
 }
-.middle-stn-1>figure {
-   margin-top: 0;
+
+.middle-stn-1 > figure {
+  margin-top: 0;
 }
 
 .us-section-tittle {
- width: 100%;
+  width: 100%;
 }
 
-
-footer li,
-footer a {
-  padding-right: 3px;
-  padding-left: 3px;
-  color: #666;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.footer-list3>li{
+.footer-list3 > li {
   display: inline-block;
 }
-
 
 @media screen and (max-width: 600px) {
   .the-debate-sm {
@@ -285,87 +300,86 @@ footer a {
   }
 
   .subscribe-btn {
-    margin-bottom: 40px;
-  }
-  .subscribe-btn {
     font-size: 12px;
     width: 100px;
+    margin-bottom: 40px;
     padding: 3px;
   }
 
   .fa-angle-right {
     font-size: 12px;
   }
-.us-section3{
-  display: none;
-}
-  .us-section-bigimg,
-   {
-  width: 380px;
+
+  .us-section3 {
+    display: none;
   }
+
+  .us-section-bigimg {
+    width: 380px;
+  }
+
   .us-section-bigtxt {
     font-size: 18px;
     width: 380px;
-    
-  } 
-  .us{
-    color: transparent;
-  }
-  .aside-pictures{
-    width: 380px;
- text-align: left;
-   
-  }
-  .all-access {
-    font-size: 15px;
-  justify-content: center;
- 
-  
   }
 
-  .newsletter-us-img2{
-    padding-left: 50px ;
+  .us {
+    color: transparent;
+  }
+
+  .aside-pictures {
+    width: 380px;
+    text-align: left;
+  }
+
+  .all-access {
+    font-size: 15px;
+    justify-content: center;
+  }
+
+  .newsletter-us-img2 {
+    padding-left: 50px;
     padding-bottom: 150px;
   }
 
-.newsletter-us-text2{
-  position: absolute;
- bottom: 0px;
- width: 300px;
- text-align: center;
- padding-left: 20px;
+  .newsletter-us-text2 {
+    position: absolute;
+    bottom: 0;
+    width: 300px;
+    text-align: center;
+    padding-left: 20px;
+  }
+
+  .margin-all {
+    width: 100%;
+    margin: 0;
+  }
+
+  .newsletter-form {
+    width: 350px;
+    margin: 0;
+  }
+
+  .footer-icons-main {
+    position: absolute;
+    left: 0;
+    top: 50px;
+  }
 }
 
-.margin-all {
-
- width: 100%;
- margin: 0;
-}
-
-.newsletter-form{
-  width: 350px;
-  margin: 0;
-}
-
-.footer-icons-main{
-  position: absolute;
-  left: 0;
-  top: 50px;
-}
-}
 @media screen and (min-width: 768px) {
   .sm-topstory {
     display: none;
   }
+
   .top-navbar {
     height: 95px;
   }
-  .logo {
-    font-size: ;
-  }
+
   .debate-w {
     width: 100%;
   }
+
   .st-row-imgs-md {
     margin-left: 200px;
   }
@@ -393,71 +407,67 @@ footer a {
     color: #fdc7c3;
     padding-top: 35px;
   }
- 
 
   .middle-stn-1,
   .middle-stn-2 {
     width: 95%;
     justify-content: center;
     padding: 0;
-   
   }
+
   .middle-imgs-main,
   .middle-txtmain,
   .middle-imgs,
-  .middle-txt{
+  .middle-txt {
     width: 180px;
     margin: 3px;
     font-size: 15px;
-  
-}
- 
-.us-section-img{
-  width: 100px;
-  height: 100px;
-}
-
-.us-section-bigimg  {
-  width: 100%;
   }
 
-  .all-access{
+  .us-section-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .us-section-bigimg {
+    width: 100%;
+  }
+
+  .all-access {
     font-size: 20px;
   }
 
-  .all-access2{
+  .all-access2 {
     font-size: 15px;
   }
+
   .us-case {
     margin: 0 auto;
     padding: 0;
     display: block;
-    
-      
-    }
-  
-    
-    footer  {
-width: fit-content;
-margin: 0 auto;
-box-sizing: border-box;
-    }
+  }
+
+  footer {
+    width: fit-content;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
 }
 
 @media screen and (min-width: 1064px) {
-    .custom-sticky2 {
-        position: -webkit-sticky;
-        position: sticky;
-        bottom: 1rem;
-        align-self: flex-end;
-      }
-      .middle-imgs-main,
-      .middle-txtmain,
-      .middle-imgs,
-      .middle-txt{
-        width: 280px;
-        margin: 3px;
-        font-size: 20px;
-      
-    }
+  .custom-sticky2 {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 1rem;
+    align-self: flex-end;
+  }
+
+  .middle-imgs-main,
+  .middle-txtmain,
+  .middle-imgs,
+  .middle-txt {
+    width: 280px;
+    margin: 3px;
+    font-size: 20px;
+  }
 }
