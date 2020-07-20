@@ -22,6 +22,8 @@ html {
   margin: 0 auto;
 }
 
+
+
 .wrapp {
   overflow: hidden;
 }
@@ -94,9 +96,10 @@ a:hover {
 
 
 .white-navbar {
+overflow: hidden;
   clear: both;
   border-bottom: 2px solid #f4f5f6;
-  font-size: 17px;
+  font-size: 15px;
   margin: 0 auto;
   justify-content: left;
 }
@@ -122,7 +125,7 @@ a:hover {
 }
 
 .st-row-imgs {
-  width: 350px;
+  max-width: 350px;
 }
 
 .st-row-text {
@@ -130,11 +133,11 @@ a:hover {
 }
 
 .debate-w {
-  width: 350px;
+  max-width: 350px;
 }
 
 .st-row-text2 {
-  width: 350px;
+  max-width: 350px;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -191,7 +194,7 @@ span {
 
 .debate-img,
 .debate-tx {
-  width: 150px;
+ max-width: 150px;
   overflow: hidden;
 }
 
@@ -275,16 +278,16 @@ span {
 
   .st-row-text2,
   .debate-sm {
-    width: 400px;
+    max-width: 400px;
   }
 
   .sm-topstory-img1,
   .sm-topstory-img2 {
-    width: 400px;
+    max-width: 400px;
   }
 
   .st-row-text2-sm {
-    width: 150px;
+   max-width: 150px;
   }
 
   .top-navbar {
@@ -335,7 +338,7 @@ span {
   }
 
   .aside-pictures {
-    width: 380px;
+   max-width: 380px;
     text-align: left;
   }
 
@@ -412,7 +415,7 @@ span {
 
   .debate-imgmd,
   .debate-tx {
-    width: 125px;
+   max-width: 125px;
     margin: 0;
     padding: 0;
   }
@@ -441,13 +444,13 @@ span {
   .middle-txtmain,
   .middle-imgs,
   .middle-txt {
-    width: 180px;
+   max-width: 180px;
     margin: 3px;
     font-size: 15px;
   }
 
   .us-section-img {
-    width: 100px;
+    max-width: 100px;
     height: 100px;
   }
 
@@ -498,7 +501,7 @@ span {
   .middle-txtmain,
   .middle-imgs,
   .middle-txt {
-    width: 280px;
+   max-width: 280px;
     margin: 3px;
     font-size: 20px;
   }
@@ -507,4 +510,6 @@ span {
     overflow: hidden;
    
       }
+
+      
 }
