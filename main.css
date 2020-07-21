@@ -28,6 +28,12 @@ html {
   overflow: hidden;
 }
 
+.Business-tittle{
+  color: #f72210;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+}
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f4f5f6;
@@ -69,9 +75,9 @@ section {
 
 .subscribe-btn {
   background: #ffe400;
-  height: 25px;
-  width: 120px;
-  padding: 2px 0 3px 0;
+  height: 28px;
+  width: 125px;
+  padding: 4px;
   margin: 4px 14px 14px 10px;
   border-radius: 25px;
   border: none;
@@ -86,7 +92,9 @@ footer a {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a:hover {
+a:hover,
+.h5:hover,
+.us-section-bigtxt:hover {
   text-decoration: underline red;
 }
 
@@ -130,10 +138,6 @@ overflow: hidden;
 
 .st-row-text {
   font-size: 21px;
-}
-
-.debate-w {
-  max-width: 350px;
 }
 
 .st-row-text2 {
@@ -194,7 +198,7 @@ span {
 
 .debate-img,
 .debate-tx {
- max-width: 150px;
+ width: 150px;
   overflow: hidden;
 }
 
@@ -401,8 +405,14 @@ span {
     padding-bottom: 35px;
     padding-right: 15px;
   }
-  .debate-w {
-    width: 100%;
+
+  .debate-md-size {
+  width: 95%;
+  }
+
+  .form-group {
+    width: 50%;
+margin: 0 200px;
   }
 
   .st-row-imgs-md {
@@ -410,14 +420,7 @@ span {
   }
 
   .st-row-imgslg {
-    width: 300px;
-  }
-
-  .debate-imgmd,
-  .debate-tx {
-   max-width: 125px;
-    margin: 0;
-    padding: 0;
+    width:100%
   }
 
   .custom-sticky {
@@ -488,6 +491,11 @@ span {
 }
   .top-navbar{
     height: 95px;
+  }
+
+  .form-group {
+    width: 100%;
+    margin: 0  auto;
   }
 
   .custom-sticky2 {
