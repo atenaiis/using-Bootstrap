@@ -1,16 +1,15 @@
-* {
-  box-sizing: border-box;
-}
 
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-} 
+}
+
 *,
 *::before,
 *::after {
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 h3 {
@@ -26,12 +25,13 @@ html {
   overflow: hidden;
 }
 
-.Business-tittle{
+.Business-tittle {
   color: #f72210;
   text-decoration: none;
   font-size: 20px;
   font-weight: bolder;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f4f5f6;
@@ -90,6 +90,10 @@ footer a {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.h5 {
+  font-size: 15px;
+}
+
 a:hover,
 .h5:hover,
 .us-section-bigtxt:hover {
@@ -100,9 +104,8 @@ a:hover,
   color: red;
 }
 
-
 .white-navbar {
-overflow: hidden;
+  overflow: hidden;
   clear: both;
   border-bottom: 2px solid #f4f5f6;
   font-size: 15px;
@@ -149,10 +152,6 @@ overflow: hidden;
   align-self: flex-end;
 }
 
-.h5 {
-  font-size: 15px;
-}
-
 .h6 {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
@@ -196,7 +195,7 @@ span {
 
 .debate-img,
 .debate-tx {
- width: 150px;
+  width: 150px;
   overflow: hidden;
 }
 
@@ -269,7 +268,6 @@ span {
 }
 
 @media screen and (max-width: 600px) {
- 
   .the-debate-sm {
     display: none;
   }
@@ -289,7 +287,7 @@ span {
   }
 
   .st-row-text2-sm {
-   max-width: 150px;
+    max-width: 150px;
   }
 
   .top-navbar {
@@ -340,7 +338,7 @@ span {
   }
 
   .aside-pictures {
-   max-width: 380px;
+    max-width: 380px;
     text-align: left;
   }
 
@@ -384,15 +382,10 @@ span {
     font-family: "Podkova", serif;
     font-size: 40px;
   }
- 
+
   .sm-topstory {
     display: none;
   }
-
-  
-.sm-topstory{
- width: fit-content;
-}
 
   .top-navbar {
     height: 50px;
@@ -405,12 +398,12 @@ span {
   }
 
   .debate-md-size {
-  width: 95%;
+    width: 95%;
   }
 
   .form-group {
     width: 50%;
-margin: 0 200px;
+    margin: 0 200px;
   }
 
   .st-row-imgs-md {
@@ -418,7 +411,7 @@ margin: 0 200px;
   }
 
   .st-row-imgslg {
-    width:100%
+    width: 100%;
   }
 
   .custom-sticky {
@@ -445,7 +438,7 @@ margin: 0 200px;
   .middle-txtmain,
   .middle-imgs,
   .middle-txt {
-   max-width: 180px;
+    max-width: 180px;
     margin: 3px;
     font-size: 15px;
   }
@@ -478,16 +471,15 @@ margin: 0 200px;
     margin: 0 auto;
     box-sizing: border-box;
   }
-
-
 }
 
 @media screen and (min-width: 1064px) {
- .logo {
-  font-family: "Podkova", serif;
-  font-size: 90px;
-}
-  .top-navbar{
+  .logo {
+    font-family: "Podkova", serif;
+    font-size: 90px;
+  }
+
+  .top-navbar {
     height: 95px;
   }
 
@@ -507,15 +499,12 @@ margin: 0 200px;
   .middle-txtmain,
   .middle-imgs,
   .middle-txt {
-   max-width: 280px;
+    max-width: 280px;
     margin: 3px;
     font-size: 20px;
   }
 
   .more-stories-flow {
     overflow: hidden;
-   
-      }
-
-      
+  }
 }
