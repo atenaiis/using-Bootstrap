@@ -400,7 +400,7 @@ a:hover,
 
   footer {
     box-sizing: unset;
-   }
+  }
 
   .footer-right {
     left: 0;
@@ -503,8 +503,8 @@ a:hover,
 
   .under-text {
     font-size: 13px;
-    margin-right: 7px;
     margin-left: 15px;
+    margin-right: 7px;
   }
   
   .under-white-txt {
