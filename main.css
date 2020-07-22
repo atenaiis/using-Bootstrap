@@ -79,7 +79,7 @@ section {
 }
 
 .climate {
- width: 28px;
+  width: 28px;
 }
 
 .fa-angle-right {
@@ -502,9 +502,9 @@ a:hover,
   }
 
   .under-text {
+    font-size: 13px;
     margin-right: 7px;
     margin-left: 15px;
-    font-size: 13px;
   }
   
   .under-white-txt {
