@@ -79,7 +79,7 @@ section {
 }
 
 .climate {
-  width: 28px;
+ width: 28px;
 }
 
 .fa-angle-right {
@@ -400,16 +400,16 @@ a:hover,
 
   footer {
     box-sizing: unset;
-  }
+   }
 
   .footer-right {
-    position: absolute;
     left: 0;
+    position: absolute;
   }
 
   .footer-icons-main {
-    position: absolute;
     left: 0;
+    position: absolute;
     top: 50px;
   }
 }
@@ -508,8 +508,8 @@ a:hover,
   }
   
   .under-white-txt {
-    padding: 0 7px;
     font-size: 13px;
+    padding: 0 7px;
     margin-right: 7px;
   }
 
