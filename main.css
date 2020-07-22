@@ -512,13 +512,13 @@ a:hover,
     margin-right: 7px;
     padding: 0 7px;
   }
-  
+
   .us-case {
+    display: block;
     margin: 0 auto;
     padding: 0;
-    display: block;
   }
-
+  
   footer {
     width: fit-content;
     margin: 0 auto;
