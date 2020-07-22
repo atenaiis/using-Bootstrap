@@ -291,21 +291,21 @@ a:hover,
   }
 
   .sm-topstory-img {
-    width: 400px;
+   width: 100%;
   }
 
   .st-row-text2,
   .debate-sm {
-    max-width: 400px;
+    width: 100%;
   }
 
   .sm-topstory-img1,
   .sm-topstory-img2 {
-    max-width: 400px;
+    width: 100%;
   }
 
   .st-row-text2-sm {
-    max-width: 150px;
+   width: 150px;
   }
 
   .top-navbar {
