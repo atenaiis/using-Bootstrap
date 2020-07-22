@@ -78,8 +78,6 @@ section {
   overflow: hidden;
 }
 
-
-
 .climate {
   width: 28px;
 }
@@ -400,15 +398,15 @@ a:hover,
     margin: 0;
   }
 
-  footer{
-  box-sizing: unset;
+  footer {
+    box-sizing: unset;
   }
 
   .footer-right {
-position: absolute;
-left: 0;
-
+    position: absolute;
+    left: 0;
   }
+
   .footer-icons-main {
     position: absolute;
     left: 0;
