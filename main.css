@@ -284,7 +284,6 @@ a:hover,
 }
 
 @media only screen and (max-width: 767px) {
-  
   * {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -336,7 +335,6 @@ a:hover,
     margin-right: 30px;
     position: absolute;
     right: 0;
-    
   }
 
   .subscribe-btn {
@@ -346,7 +344,6 @@ a:hover,
     padding: 2px;
     position: absolute;
     right: 35px;
-   
   }
 
   .fa-angle-right {
