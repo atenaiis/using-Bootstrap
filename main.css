@@ -520,9 +520,9 @@ a:hover,
   }
   
   footer {
-    width: fit-content;
-    margin: 0 auto;
     box-sizing: border-box;
+    margin: 0 auto;
+    width: fit-content;
   }
 }
 
