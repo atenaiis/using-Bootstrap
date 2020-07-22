@@ -19,34 +19,32 @@ h3 {
 html {
   width: 100%;
   margin: 0 auto;
-  font-family: 'Roboto Condensed', sans-serif; 
+  font-family:'Roboto Condensed', sans-serif; 
 }
 
 .wrapp {
   overflow: hidden;
 }
 
-.under-text{
+.under-text {
   padding: 0 7px;
-  background-color:#f72210;
+  background-color: #f72210;
   margin-right: 7px;
   margin-left: 15px;
 }
 
-.under-white-txt{
+.under-white-txt {
   padding: 0 7px;
-  color:#f72210;
+  color: #f72210;
   margin-right: 7px;
 }
 
-.underline-mainimg{
+.underline-mainimg {
   text-align: center;
- 
 }
 
 .underline-mainimg:hover {
-background-color: #f1f3f5;
-
+background-color:#f1f3f5;
 }
 
 .Business-tittle {
@@ -286,6 +284,7 @@ a:hover,
 }
 
 @media only screen and (max-width: 767px) {
+  
   .the-debate-sm {
     display: none;
   }
