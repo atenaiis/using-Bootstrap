@@ -20,6 +20,7 @@ html {
   width: 100%;
   margin: 0 auto;
   font-family: 'Roboto Condensed', sans-serif; 
+
 }
 
 .wrapp {
@@ -44,7 +45,7 @@ html {
 }
 
 .underline-mainimg:hover {
-background-color: #f1f3f5;
+  background-color: #f1f3f5;
 }
 
 .Business-tittle {
@@ -285,7 +286,7 @@ a:hover,
 
 @media only screen and (max-width: 767px) {
   .the-debate-sm {
-   display: none;
+    display: none;
   }
 
   .sm-topstory-img {
