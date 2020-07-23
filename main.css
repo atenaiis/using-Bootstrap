@@ -544,6 +544,10 @@ a:hover,
     margin: 0  auto;
   }
 
+  .st-row-text3 {
+   max-width: 100%;
+   margin: 0 ;
+  }
   .custom-sticky2 {
     position: -webkit-sticky;
     position: sticky;
