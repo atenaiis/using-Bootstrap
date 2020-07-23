@@ -163,7 +163,7 @@ a:hover,
 }
 
 .st-row-text2 {
- width: 350px;
+ width: 100%;
   font-size: 15px;
 }
 
@@ -449,8 +449,9 @@ a:hover,
     width: 100%;
   }
 
-  .st-row-text2 {
-    
+  .st-row-text3 {
+    width: 350px;
+    margin-left: 200px;
   }
 
   .custom-sticky {
